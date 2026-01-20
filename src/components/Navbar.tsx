@@ -70,6 +70,7 @@ const navItems: NavItem[] = [
     ],
   },
   { label: "Careers", href: "/careers" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Contact Us", href: "/contact" },
 ];
 

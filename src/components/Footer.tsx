@@ -6,7 +6,7 @@ const quickLinks = [
   { label: "Academics", href: "/learning/academics" },
   { label: "Admissions", href: "/admissions" },
   { label: "Life at School", href: "/life-at-school" },
-  { label: "Careers", href: "/careers" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Contact Us", href: "/contact" },
 ];
 
