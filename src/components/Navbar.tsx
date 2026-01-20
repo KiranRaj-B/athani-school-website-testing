@@ -121,10 +121,10 @@ export function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
               <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
-                <span className="text-primary-foreground font-serif font-bold text-xl">A</span>
+                <span className="text-primary-foreground font-bold text-xl">A</span>
               </div>
               <div>
-                <h1 className="font-serif text-xl font-bold text-foreground">Athani School</h1>
+                <h1 className="text-xl font-bold text-foreground">Athani School</h1>
                 <p className="text-xs text-muted-foreground">Excellence in Education</p>
               </div>
             </Link>

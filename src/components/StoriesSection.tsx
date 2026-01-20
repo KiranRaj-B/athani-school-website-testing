@@ -38,7 +38,7 @@ export function StoriesSection() {
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
           <div className="animate-slide-up">
             <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">Latest Updates</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
               Stories &{" "}
               <span className="text-gradient-primary">Events</span>
             </h2>
@@ -79,7 +79,7 @@ export function StoriesSection() {
                   <Calendar className="h-4 w-4" />
                   <span>{story.date}</span>
                 </div>
-                <h3 className="font-serif text-lg font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-2">
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-2">
                   {story.title}
                 </h3>
                 <p className="text-muted-foreground text-sm line-clamp-2">

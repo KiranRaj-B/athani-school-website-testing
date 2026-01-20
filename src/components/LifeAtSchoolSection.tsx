@@ -37,7 +37,7 @@ export function LifeAtSchoolSection() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
           <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">Beyond Academics</p>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
             Life at{" "}
             <span className="text-gradient-primary">Athani School</span>
           </h2>
@@ -62,7 +62,7 @@ export function LifeAtSchoolSection() {
               />
               <div className={`absolute inset-0 bg-gradient-to-t ${activity.color}`} />
               <div className="absolute bottom-0 left-0 right-0 p-8">
-                <h3 className="font-serif text-2xl font-bold text-primary-foreground mb-2">
+                <h3 className="text-2xl font-bold text-primary-foreground mb-2">
                   {activity.title}
                 </h3>
                 <p className="text-primary-foreground/90 text-sm mb-4">
@@ -81,7 +81,7 @@ export function LifeAtSchoolSection() {
         <div className="bg-muted/50 rounded-2xl p-8 lg:p-12">
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
             <div className="max-w-md">
-              <h3 className="font-serif text-2xl font-bold text-foreground mb-3">
+              <h3 className="text-2xl font-bold text-foreground mb-3">
                 Clubs, Activities & More
               </h3>
               <p className="text-muted-foreground">

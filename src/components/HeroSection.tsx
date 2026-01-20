@@ -26,7 +26,7 @@ export function HeroSection() {
           </div>
 
           {/* Heading */}
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight">
             Shaping Future-Ready{" "}
             <span className="text-secondary">Learners</span>
           </h1>
@@ -61,7 +61,7 @@ export function HeroSection() {
               { value: "100%", label: "Result Rate" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
-                <p className="font-serif text-3xl md:text-4xl font-bold text-secondary">{stat.value}</p>
+                <p className="text-3xl md:text-4xl font-bold text-secondary">{stat.value}</p>
                 <p className="text-primary-foreground/70 text-sm mt-1">{stat.label}</p>
               </div>
             ))}
