@@ -28,7 +28,7 @@ export function AboutSection() {
             </div>
             {/* Floating Card */}
             <div className="absolute -bottom-6 -right-6 bg-background rounded-2xl shadow-xl p-6 border border-border max-w-[200px] animate-float">
-              <p className="font-serif text-4xl font-bold text-primary">CBSE</p>
+              <p className="text-4xl font-bold text-primary">CBSE</p>
               <p className="text-muted-foreground text-sm mt-1">Affiliated Curriculum</p>
             </div>
             {/* Decorative Elements */}
@@ -39,7 +39,7 @@ export function AboutSection() {
           <div className="space-y-8 animate-slide-up">
             <div>
               <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">About Athani School</p>
-              <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
                 Nurturing Minds,{" "}
                 <span className="text-gradient-primary">Building Futures</span>
               </h2>

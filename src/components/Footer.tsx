@@ -36,10 +36,10 @@ export function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-gradient-secondary rounded-xl flex items-center justify-center">
-                <span className="text-primary-foreground font-serif font-bold text-xl">A</span>
+                <span className="text-primary-foreground font-bold text-xl">A</span>
               </div>
               <div>
-                <h3 className="font-serif text-xl font-bold">Athani School</h3>
+                <h3 className="text-xl font-bold">Athani School</h3>
                 <p className="text-sm text-primary-foreground/70">Excellence in Education</p>
               </div>
             </div>
@@ -62,7 +62,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-serif text-lg font-semibold mb-6">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.label}>
@@ -79,7 +79,7 @@ export function Footer() {
 
           {/* Learning */}
           <div>
-            <h4 className="font-serif text-lg font-semibold mb-6">Learning</h4>
+            <h4 className="text-lg font-semibold mb-6">Learning</h4>
             <ul className="space-y-3">
               {learningLinks.map((link) => (
                 <li key={link.label}>
@@ -96,7 +96,7 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-serif text-lg font-semibold mb-6">Contact Us</h4>
+            <h4 className="text-lg font-semibold mb-6">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-secondary shrink-0 mt-0.5" />

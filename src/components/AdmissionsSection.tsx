@@ -38,7 +38,7 @@ export function AdmissionsSection() {
           <div className="space-y-8 animate-slide-up">
             <div>
               <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">Admissions 2025-26</p>
-              <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground leading-tight mb-6">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground leading-tight mb-6">
                 Begin Your Child's Journey to{" "}
                 <span className="text-secondary">Excellence</span>
               </h2>
@@ -82,7 +82,7 @@ export function AdmissionsSection() {
 
           {/* Steps */}
           <div className="bg-background/10 backdrop-blur-sm rounded-2xl p-8 border border-primary-foreground/10 animate-fade-in">
-            <h3 className="font-serif text-xl font-bold text-primary-foreground mb-6">
+            <h3 className="text-xl font-bold text-primary-foreground mb-6">
               Admission Process
             </h3>
             <div className="space-y-6">
