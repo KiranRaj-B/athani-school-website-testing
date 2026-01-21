@@ -34,12 +34,13 @@ const LeadPopup = () => {
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4">
       <div className="relative w-full max-w-md bg-white rounded-2xl shadow-2xl p-6">
         
-        {/* Close Button */}
+        {/* Close Button - RED BOX */}
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 text-gray-500 hover:text-black"
+          className="absolute top-4 right-4 bg-red-600 hover:bg-red-700 text-white rounded-md p-1.5"
+          aria-label="Close popup"
         >
-          <X size={18} />
+          <X size={16} />
         </button>
 
         {/* Heading */}
@@ -89,7 +90,7 @@ const LeadPopup = () => {
         </div>
 
         {/* Footer Note */}
-        <p className="text-2xl text-gray-500 text-center mt-5">
+        <p className="text-xl text-gray-500 text-center mt-5">
           This is a simple demo website
         </p>
       </div>
