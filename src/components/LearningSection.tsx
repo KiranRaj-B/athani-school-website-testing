@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Lightbulb, Users, Globe, ArrowRight } from "lucide-react";
-import academicsImage from "@/assets/academics.jpg";
+import academicsImage from "@/assets/academics1.png";
 
 const features = [
   {

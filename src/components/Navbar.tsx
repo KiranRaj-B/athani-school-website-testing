@@ -93,9 +93,9 @@ export function Navbar() {
       <div className="hidden lg:block bg-primary text-primary-foreground py-2">
         <div className="container mx-auto px-4 flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
-            <a href="tel:+919876543210" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <a href="tel:+919611929845" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Phone className="h-4 w-4" />
-              <span>+91 98765 43210</span>
+              <span>+91 9611929845</span>
             </a>
             <a href="mailto:info@athanischool.edu" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Mail className="h-4 w-4" />
@@ -122,7 +122,7 @@ export function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
               <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
-                <span className="text-primary-foreground font-bold text-xl">A</span>
+                <img src="/images/school_example_logo.jpg" alt="School Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-foreground">Athani School</h1>

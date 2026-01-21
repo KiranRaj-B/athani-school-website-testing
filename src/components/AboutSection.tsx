@@ -40,18 +40,18 @@ export function AboutSection() {
             <div>
               <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">About Athani School</p>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-                Nurturing Minds,{" "}
-                <span className="text-gradient-primary">Building Futures</span>
+                Growing Minds,{" "}
+                <span className="text-gradient-primary">Preparing for Tomorrow</span>
               </h2>
             </div>
 
-            <p className="text-muted-foreground text-lg leading-relaxed">
+            <p className="text-muted-foreground text-justify text-lg leading-relaxed">
               For over two decades, Athani School has been at the forefront of educational excellence 
               in the Belagavi region. Our holistic approach combines rigorous academics with 
               comprehensive co-curricular programs, preparing students to thrive in an ever-changing world.
             </p>
 
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground text-justify leading-relaxed">
               We believe every child has unique potential. Our dedicated faculty, state-of-the-art 
               facilities, and nurturing environment work together to unlock this potential, fostering 
               intellectual curiosity, critical thinking, and strong moral values.

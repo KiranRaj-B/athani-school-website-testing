@@ -22,7 +22,7 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-secondary/20 backdrop-blur-sm border border-secondary/30 rounded-full px-4 py-2">
             <span className="w-2 h-2 bg-secondary rounded-full animate-pulse" />
-            <span className="text-primary-foreground text-sm font-medium">Admissions Open 2025-26</span>
+            <span className="text-primary-foreground text-sm font-medium">Admissions Open 2026-27</span>
           </div>
 
           {/* Heading */}
@@ -32,7 +32,7 @@ export function HeroSection() {
           </h1>
 
           {/* Description */}
-          <p className="text-primary-foreground/90 text-lg md:text-xl leading-relaxed max-w-xl">
+          <p className="text-primary-foreground/90 text-justify text-lg md:text-xl leading-relaxed max-w-xl">
             Where academic excellence meets holistic development. Join a community that nurtures 
             curiosity, fosters innovation, and builds leaders of tomorrow.
           </p>
@@ -57,7 +57,7 @@ export function HeroSection() {
           <div className="grid grid-cols-3 gap-8 pt-8 border-t border-primary-foreground/20 max-w-lg">
             {[
               { value: "25+", label: "Years of Excellence" },
-              { value: "2000+", label: "Happy Students" },
+              { value: "5000+", label: "Happy Students" },
               { value: "100%", label: "Result Rate" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">

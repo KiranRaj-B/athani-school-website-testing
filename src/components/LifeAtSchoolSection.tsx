@@ -22,12 +22,12 @@ const activities = [
 ];
 
 const highlights = [
-  { label: "Annual Arts Festival", icon: "🎭" },
-  { label: "Inter-School Sports", icon: "🏆" },
-  { label: "Music Academy", icon: "🎵" },
-  { label: "Leadership Programs", icon: "⭐" },
-  { label: "Community Service", icon: "🤝" },
-  { label: "Science Olympiad", icon: "🔬" },
+  { label: "Annual Arts Festival", icon: "" },
+  { label: "Inter-School Sports", icon: "" },
+  { label: "Music Academy", icon: "" },
+  { label: "Leadership Programs", icon: "" },
+  { label: "Community Service", icon: "" },
+  { label: "Science Olympiad", icon: "" },
 ];
 
 export function LifeAtSchoolSection() {
@@ -82,10 +82,11 @@ export function LifeAtSchoolSection() {
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
             <div className="max-w-md">
               <h3 className="text-2xl font-bold text-foreground mb-3">
-                Clubs, Activities & More
+                Activities & More
               </h3>
-              <p className="text-muted-foreground">
-                From robotics to debate, our diverse range of clubs and activities cater to every interest.
+              <p className="text-muted-foreground text-justify">
+                Whatever your interest, we have an activity for you. From arts to athletics,
+                leadership to service, our programs are designed to enrich your school experience.
               </p>
             </div>
             <div className="flex flex-wrap gap-3">

@@ -36,7 +36,7 @@ export function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-gradient-secondary rounded-xl flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">A</span>
+                <img src="/images/school_example_logo.jpg" alt="School Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h3 className="text-xl font-bold">Athani School</h3>
@@ -106,8 +106,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-secondary shrink-0" />
-                <a href="tel:+919876543210" className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm">
-                  +91 98765 43210
+                <a href="tel:+919611929845" className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm">
+                  +91 9611929845
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -127,7 +127,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
             <p>© {new Date().getFullYear()} Athani School. All rights reserved.</p>
             <p>
-              Developed by <a href="#" className="text-secondary hover:underline">Kiran</a> & <a href="https://trevia.ai" className="text-secondary hover:underline" target="_blank" rel="noopener noreferrer">Trevia.ai</a>
+              Desigined & Developed by <a href="#" className="text-secondary hover:underline">Kiran Raj </a> & team <a href="https://trevia.vercel.app/" className="text-secondary hover:underline" target="_blank" rel="noopener noreferrer">Trevia.ai</a>
             </p>
           </div>
         </div>

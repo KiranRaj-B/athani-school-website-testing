@@ -1,27 +1,31 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ClipboardList, FileText, Calendar, Phone, ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 
 const steps = [
   {
-    icon: ClipboardList,
-    title: "Submit Enquiry",
-    description: "Fill out our online enquiry form with your child's details.",
+    step: "01",
+    title: "Submit Application",
+    description:
+      "Complete the online application form with required documents and information.",
   },
   {
-    icon: FileText,
-    title: "Application Form",
-    description: "Complete the detailed application form and submit required documents.",
+    step: "02",
+    title: "Entrance Assessment",
+    description:
+      "Age-appropriate assessment to understand the child's learning level and readiness.",
   },
   {
-    icon: Calendar,
-    title: "Assessment & Interview",
-    description: "Attend the scheduled assessment and parent-student interaction.",
+    step: "03",
+    title: "Parent Interaction",
+    description:
+      "Meet with our admissions team and principal to discuss the school philosophy.",
   },
   {
-    icon: CheckCircle,
-    title: "Enrollment",
-    description: "Complete admission formalities and welcome to Athani School!",
+    step: "04",
+    title: "Enrollment Confirmation",
+    description:
+      "Receive admission decision and complete the enrollment process with fee payment.",
   },
 ];
 
@@ -34,30 +38,41 @@ export function AdmissionsSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          
           {/* Content */}
           <div className="space-y-8 animate-slide-up">
             <div>
-              <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">Admissions 2025-26</p>
+              <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">
+                Admissions 2025-26
+              </p>
+
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground leading-tight mb-6">
-                Begin Your Child's Journey to{" "}
+                Begin Your Child&apos;s Journey to{" "}
                 <span className="text-secondary">Excellence</span>
               </h2>
+
               <p className="text-primary-foreground/90 text-lg">
-                We welcome students who are eager to learn, grow, and make a difference. 
+                We welcome students who are eager to learn, grow, and make a difference.
                 Our admissions process is designed to be simple and transparent.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="xl" className="bg-secondary hover:bg-secondary-light" asChild>
+              <Button
+                variant="hero"
+                size="xl"
+                className="bg-secondary hover:bg-secondary-light"
+                asChild
+              >
                 <Link to="/admissions/enrol">
                   Apply Now
-                  <ArrowRight className="h-5 w-5" />
+                  <ArrowRight className="h-5 w-5 ml-2" />
                 </Link>
               </Button>
+
               <Button variant="heroOutline" size="lg" asChild>
                 <Link to="/contact">
-                  <Phone className="h-5 w-5" />
+                  <Phone className="h-5 w-5 mr-2" />
                   Schedule a Visit
                 </Link>
               </Button>
@@ -65,7 +80,7 @@ export function AdmissionsSection() {
 
             <div className="flex items-center gap-4 pt-4">
               <div className="flex -space-x-3">
-                {[1, 2, 3, 4].map((i) => (
+                {[1, 2, 3, 4, 5].map((i) => (
                   <div
                     key={i}
                     className="w-10 h-10 rounded-full bg-secondary/30 border-2 border-primary-foreground flex items-center justify-center text-xs font-bold text-primary-foreground"
@@ -74,36 +89,43 @@ export function AdmissionsSection() {
                   </div>
                 ))}
               </div>
+
               <p className="text-primary-foreground/80 text-sm">
-                <span className="font-semibold text-primary-foreground">500+</span> families joined last year
+                <span className="font-semibold text-primary-foreground">1000+</span>{" "}
+                families joined last year
               </p>
             </div>
           </div>
 
-          {/* Steps */}
-          <div className="bg-background/10 backdrop-blur-sm rounded-2xl p-8 border border-primary-foreground/10 animate-fade-in">
-            <h3 className="text-xl font-bold text-primary-foreground mb-6">
+          {/* Admission Process (UPDATED DESIGN) */}
+          <div className="animate-fade-in">
+            <h3 className="text-xl font-bold text-primary-foreground mb-8">
               Admission Process
             </h3>
-            <div className="space-y-6">
-              {steps.map((step, index) => (
-                <div key={step.title} className="flex gap-4">
-                  <div className="relative">
-                    <div className="w-12 h-12 bg-primary-foreground/10 rounded-xl flex items-center justify-center shrink-0">
-                      <step.icon className="h-6 w-6 text-secondary" />
-                    </div>
-                    {index < steps.length - 1 && (
-                      <div className="absolute top-12 left-1/2 w-0.5 h-8 bg-primary-foreground/20 -translate-x-1/2" />
-                    )}
+
+            <div className="grid sm:grid-cols-2 gap-6">
+              {steps.map((step) => (
+                <div
+                  key={step.step}
+                  className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition"
+                >
+                  {/* Step Number */}
+                  <div className="absolute -top-4 left-6 w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center font-bold text-sm">
+                    {step.step}
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-primary-foreground mb-1">{step.title}</h4>
-                    <p className="text-primary-foreground/70 text-sm">{step.description}</p>
-                  </div>
+
+                  <h4 className="mt-6 text-lg font-semibold text-gray-900 mb-2">
+                    {step.title}
+                  </h4>
+
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {step.description}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
+
         </div>
       </div>
     </section>
