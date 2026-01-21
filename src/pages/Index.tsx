@@ -1,3 +1,4 @@
+import LeadPopup from "@/components/marketing/LeadPopup";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
@@ -12,6 +13,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <main>
+        <LeadPopup />
         <HeroSection />
         <AboutSection />
         <LearningSection />
