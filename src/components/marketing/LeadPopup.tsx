@@ -25,7 +25,7 @@ const LeadPopup = () => {
     // Restart popup after 10 seconds
     setTimeout(() => {
       setOpen(true);
-    }, 10000);
+    }, 30000);
   };
 
   if (!open) return null;
