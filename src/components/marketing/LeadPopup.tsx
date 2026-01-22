@@ -11,7 +11,7 @@ const LeadPopup = () => {
     const startTimer = () => {
       timer = setTimeout(() => {
         setOpen(true);
-      }, 10000); // 10 seconds
+      }, 20000); // 20 seconds
     };
 
     startTimer();
