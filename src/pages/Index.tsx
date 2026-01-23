@@ -8,6 +8,7 @@ import { LifeAtSchoolSection } from "@/components/LifeAtSchoolSection";
 import { StoriesSection } from "@/components/StoriesSection";
 import { AdmissionsSection } from "@/components/AdmissionsSection";
 import CurriculumSection from "@/components/CurriculumSection";
+import BoardMembersSection from "@/components/BoardMembersSection";
 
 const Index = () => {
   return (
@@ -17,10 +18,11 @@ const Index = () => {
         <LeadPopup />
         <HeroSection />
         <AboutSection />
-        <LearningSection />
+        {/* <LearningSection /> */}
         <CurriculumSection />
+        <BoardMembersSection />
         <LifeAtSchoolSection />
-        <StoriesSection />
+        {/* <StoriesSection /> */}
         <AdmissionsSection />
       </main>
       <Footer />

@@ -3,14 +3,6 @@ import { Button } from "@/components/ui/button";
 
 const programs = [
   {
-    title: "Early Years",
-    subtitle: "Nursery to UKG",
-  },
-  {
-    title: "Primary School",
-    subtitle: "Class  1 to 5",
-  },
-  {
     title: "High School",
     subtitle: "Class 6 to 8",
   },

@@ -23,7 +23,7 @@ export function AboutSection() {
               <img
                 src={libraryImage}
                 alt="Athani School Library"
-                className="w-full h-[400px] lg:h-[500px] object-cover"
+                className="w-full h-[300px] lg:h-[400px] object-cover"
               />
             </div>
             {/* Floating Card */}
@@ -49,12 +49,6 @@ export function AboutSection() {
               For over two decades, Athani School has been at the forefront of educational excellence 
               in the Belagavi region. Our holistic approach combines rigorous academics with 
               comprehensive co-curricular programs, preparing students to thrive in an ever-changing world.
-            </p>
-
-            <p className="text-muted-foreground text-justify leading-relaxed">
-              We believe every child has unique potential. Our dedicated faculty, state-of-the-art 
-              facilities, and nurturing environment work together to unlock this potential, fostering 
-              intellectual curiosity, critical thinking, and strong moral values.
             </p>
 
             {/* Values Grid */}
